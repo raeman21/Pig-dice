@@ -1,18 +1,21 @@
 .jumbotron{
   text-align: center;
   background-color:#DC7633;
+
 }
 body{
-  background-color: #C0392B  ;
+  background-color: #C0392B;
 }
 .well{
   background-color: #EB984E;
   text-align: justify;
   font-family:'Fredoka One', cursive;
   height: auto;
+  text
 }
 .heading{
   font-family:'Fredoka One', cursive;
+  font-size: 80px;
 }
 .panel{
   resize: both;
