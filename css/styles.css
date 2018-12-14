@@ -4,8 +4,10 @@
 .heading{
   font-family:'Fredoka One', cursive;
 }
+.well2{
+  text-align: justify;
 }
-div.dice{
+.dice{
   display: inline-block;
   float: right;
   width: 40px;
@@ -13,7 +15,6 @@ div.dice{
   text-align: center;
   margin:5px;
   padding: 10px;
-
 }
 .buttons{
   float: right;
