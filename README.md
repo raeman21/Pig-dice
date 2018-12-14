@@ -10,8 +10,8 @@
 ## Link to live Site
   {https://raeman21.github.io/Pig-dice/}
 
-##Setup/Installation Requirements
-*Click on applicatin link
+## Setup/Installation Requirements
+*Click on application link
 *wait for application to open
 *Player 1 inputs name into text field provided and clicks enter
 *Player 2 inputs name into text field and clicks enter
