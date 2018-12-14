@@ -1,14 +1,31 @@
 .jumbotron{
   text-align: center;
+  background-color:#DC7633;
+}
+body{
+  background-color: #C0392B  ;
+}
+.well{
+  background-color: #EB984E;
+  text-align: justify;
+  font-family:'Fredoka One', cursive;
+  height: auto;
 }
 .heading{
   font-family:'Fredoka One', cursive;
 }
-.well2{
-  text-align: justify;
+.panel{
+  resize: both;
+}
+.form-control{
+  border-radius: 30%;
+  border:1px;
+}
+button{
+  border-radius:30%;
 }
 .dice{
-  display: inline-block;
+  display: grid;
   float: right;
   width: 40px;
   border:1px solid;
