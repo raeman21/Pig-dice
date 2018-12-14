@@ -1,3 +1,5 @@
+var dice=""
+
 
 function dice_Roll() {
   this.die = [];
