@@ -35,9 +35,11 @@ button{
   text-align: center;
   margin:5px;
   padding: 10px;
+  color:#F4D03F
 }
 .buttons{
   float: right;
   text-align: justify;
   padding: 10px;
+  column-fill:#F4D03F;
 }
