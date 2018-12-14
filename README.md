@@ -8,7 +8,7 @@
 {The purpose of this application is gaming, two players or a player against the computer. The players input their names into fields provided, player1 begins by clicking the roll-dice button and tallies his result with the hold button, the points are added in a separate panel and first player to get to 100 points wins the game.}
 
 ## Link to live Site
-
+  https://raeman21.github.io/Pig-dice/.
 
 ##Setup/Installation Requirements
 *Click on applicatin link
