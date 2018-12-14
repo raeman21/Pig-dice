@@ -1,3 +1,22 @@
 .jumbotron{
   text-align: center;
 }
+.heading{
+  font-family:'Fredoka One', cursive;
+}
+}
+div.dice{
+  display: inline-block;
+  float: right;
+  width: 40px;
+  border:1px solid;
+  text-align: center;
+  margin:5px;
+  padding: 10px;
+
+}
+.buttons{
+  float: right;
+  text-align: justify;
+  padding: 10px;
+}
