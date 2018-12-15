@@ -17,6 +17,12 @@ body{
   font-family:'Fredoka One', cursive;
   font-size: 80px;
 }
+.well2{
+  background-color:#F4D03F;
+  height: 110px;
+  margin:5px;
+  padding: 10px;
+}
 .panel{
   resize: both;
 }
@@ -27,14 +33,17 @@ body{
 button{
   border-radius:30%;
 }
-.dice{
+.output{
   display: grid;
-  float: right;
+  float:right;
+  padding:50%;
   width: 40px;
-  border:1px solid;
+  border:5px solid;
   text-align: center;
   margin:5px;
   padding: 10px;
+  background-color: white;
+
   color:#F4D03F
 }
 .buttons{

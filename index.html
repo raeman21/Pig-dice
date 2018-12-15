@@ -29,28 +29,27 @@
         <li>First player to get to 100 wins!</li>
       </ul>
     </div>
+    <div class="well2">
     <div class="column">
       <div class="col col-md-2" id="p1">
-        <input type="text" class="form-control" placeholder="Player1">
+        <input type="text" class="player-name" id="name-0" placeholder="Player1">
         <button type="button" onclick="play1" name="button"> enter</button>
-      </div>
-      <div class="dice">
-        <output id="die1" type="number" value="0"></output>
-      </div>
-      <div class="dice">
-        <output id="die2" type="number" value="0"></output>
+        <input type= ""id= "scoreOne" disabled="">
       </div>
       <div class="buttons">
-        <button type="button" id="rollBut">Roll Dice</button><br>
-        <button type="button" id="hold" name="hold">Hold</button>
+        <button type="button" id="rollBut" onclick= "die()">Roll Dice</button><br>
+        <button type="button" id="hold" name="hold" onclick="next()">Hold</button>
       </div>
       <div class="col col-md-2" id="p2">
-        <input type="text" class="form-control" placeholder="Player2">
+        <input type="text" class="player-name" id= "name-1" placeholder="Player2">
         <button type="button btn-warning" onclick="play2" name="button"> enter</button>
+          <input type = "" id= "scoreTwo" disabled="">
         <div class="output">
-          <output name="result"></output>
+
+          <output type="text-box" id="results"></p>
         </div>
       </div>
+    </div>
     </div>
 
 
