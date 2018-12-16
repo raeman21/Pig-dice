@@ -18,10 +18,12 @@ body{
   font-size: 80px;
 }
 .well2{
-  background-color:#F4D03F;
+  background-color:#DC7633;
   height: 110px;
   margin:5px;
   padding: 10px;
+  border-radius:3px;
+  border-width: medium;
 }
 .panel{
   resize: both;
