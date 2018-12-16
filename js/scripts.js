@@ -35,6 +35,10 @@ function die() {
     document.getElementById("results").innerHTML = '' + totalScore;
 
   }
+  else if (num == 1) {
+    (totalScore === 0).reset
+
+  }
 
 }
 var scorerOne = 0;
@@ -49,12 +53,12 @@ function next() {
   } else if (player == 1) {
     totalScore = totalScore + scorerTwo;
     document.getElementById("scoreTwo").value = "" + totalScore;
-    player = 0;
+    return player = 0;
   }
-  else if (totalScore=>100){
-    document.getElementById("name-0")+"wins!"
+    else if (100 <= totalScore){
+      alert("player1+wins!")
   }
-  else if(totalScore=>100){
-    document.getElementById("name-1")+"wins!"
+    else if(100 <= totalScore){
+      alert("player2+wins!")
   }
 }

@@ -17,7 +17,7 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1 class="heading">PIG-DICE</h1>
+      <img src="img/icons8-swine-50.png" alt="pig-glyph"><h1 class="heading">PIG-DICE</h1><img src="img/icons8-swine-50.png" alt="pig glyph">
     </div>
     <div class="well">
       <h2>Instructions</h2>
@@ -39,14 +39,14 @@
       <div class="buttons">
         <button type="button" id="rollBut" onclick= "die()">Roll Dice</button><br>
         <button type="button" id="hold" name="hold" onclick="next()">Hold</button>
+        <button type="button" id="reset" onclick="reset()" name="button">Reset</button>
       </div>
       <div class="col col-md-2" id="p2">
         <input type="text" class="player-name" id= "name-1" placeholder="Player2">
         <button type="button btn-warning" onclick="play2" name="button"> enter</button>
           <input type = "" id= "scoreTwo" disabled="">
         <div class="output">
-
-          <output type="text-box" id="results"></p>
+          <output type="text-box" id="results" value="0"></p>
         </div>
       </div>
     </div>
