@@ -22,6 +22,12 @@
 ## Known Bugs
 {Player results, tallying and button functionality not fully operational, working to fix these bugs}
 
+## Specifications
+{Enter player names in fields provided}
+{Click enter to register names}
+{click Roll-Dice button to roll the die}
+{To tally points for each player, click hold}
+
 ## Technologies
 {The app uses HTML5,CSS3,JQuery, and JavaScript.}
 

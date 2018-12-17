@@ -25,6 +25,9 @@ body{
   border-radius:3px;
   border-width: medium;
 }
+.buttons{
+  margin: -10px;
+}
 .panel{
   resize: both;
 }

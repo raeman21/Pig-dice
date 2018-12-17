@@ -21,6 +21,8 @@ function dice_Roll() {
   }
 
 }*/
+//Business Logic
+
 var totalScore = 0;
 var num
 
@@ -55,10 +57,28 @@ function next() {
     document.getElementById("scoreTwo").value = "" + totalScore;
     return player = 0;
   }
-    else if (100 <= totalScore){
+    else if (totalScore +=100){
       alert("player1+wins!")
   }
-    else if(100 <= totalScore){
+    else if(totalScore += 100 ){
       alert("player2+wins!")
   }
 }
+//UI Logic
+/*
+$(".output").val(totalScore);
+});
+
+$(document).ready(function(){
+$("#p1").click(function(){
+  $("input.player-name1").hide()
+  $("name-0").show()
+});
+
+$("#p2").click(function(){
+  $("input.player-name2").hide()
+  $("name-1").show()
+});
+});
+
+*/
