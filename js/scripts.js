@@ -21,6 +21,18 @@ function dice_Roll() {
   }
 
 }*/
+//UI logic
+$(document).ready(function(){
+  $(".play1").click(function(){
+    $("#name-0").hide()
+    $("#name-0").show()
+  });
+  $(".play2").click(function(){
+    $("#name-1").hide()
+    $("#name-1").show()
+  });
+})
+
 //Business Logic
 
 var totalScore = 0;
@@ -64,21 +76,3 @@ function next() {
       alert("player2+wins!")
   }
 }
-//UI Logic
-/*
-$(".output").val(totalScore);
-});
-
-$(document).ready(function(){
-$("#p1").click(function(){
-  $("input.player-name1").hide()
-  $("name-0").show()
-});
-
-$("#p2").click(function(){
-  $("input.player-name2").hide()
-  $("name-1").show()
-});
-});
-
-*/

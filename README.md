@@ -17,7 +17,7 @@
 *Player 2 inputs name into text field and clicks enter
 *player names are recorded and information is given on which player's turn it is
 *when points add up to 100, player wins*
-{The app depends on jquery cdn and google fonts to run}
+{The app depends on JQuery cdn and google fonts to run}
 
 ## Known Bugs
 {Player results, tallying and button functionality not fully operational, working to fix these bugs}
