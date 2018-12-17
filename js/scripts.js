@@ -23,12 +23,12 @@ function dice_Roll() {
 }*/
 //UI logic
 $(document).ready(function(){
-  $(".play1").click(function(){
-    $("#name-0").hide()
+  $("#p1").click(function(){
+    $(".button").hide()
     $("#name-0").show()
   });
-  $(".play2").click(function(){
-    $("#name-1").hide()
+  $("#p2").click(function(){
+    $(".button").hide()
     $("#name-1").show()
   });
 })
@@ -62,17 +62,17 @@ var player = 0;
 function next() {
   if (player == 0) {
     totalScore = totalScore + scorerOne;
-    document.getElementById("scoreOne").value = "" + totalScore;
+    document.getElementById("scoreOne").value = "You rolled" + totalScore;
     player = 1;
   } else if (player == 1) {
     totalScore = totalScore + scorerTwo;
-    document.getElementById("scoreTwo").value = "" + totalScore;
-    return player = 0;
+    document.getElementById("scoreTwo").value = "You rolled" + totalScore;
+    totalScore = 0;
   }
-    else if (totalScore +=100){
+    else if (scoreOne == 100){
       alert("player1+wins!")
   }
-    else if(totalScore += 100 ){
+    else if(scoreTwo == 100 ){
       alert("player2+wins!")
   }
 }
