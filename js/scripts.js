@@ -27,7 +27,7 @@ $(document).ready(function(){
     $(".button").hide()
     $("#name-0").show()
   });
-  $("#p2").click(function(){
+  $("#p2  ").click(function(){
     $(".button").hide()
     $("#name-1").show()
   });
