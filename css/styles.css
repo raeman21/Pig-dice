@@ -13,6 +13,9 @@ body{
   height: auto;
   text
 }
+.gif{
+  float: right;
+}
 .heading{
   font-family:'Fredoka One', cursive;
   font-size: 80px;
