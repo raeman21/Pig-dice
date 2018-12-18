@@ -22,16 +22,7 @@ function dice_Roll() {
 
 }*/
 //UI logic
-$(document).ready(function(){
-  $("#p1").click(function(){
-    $(".button").hide()
-    $("#name-0").show()
-  });
-  $("#p2  ").click(function(){
-    $(".button").hide()
-    $("#name-1").show()
-  });
-})
+
 
 //Business Logic
 
@@ -76,3 +67,15 @@ function next() {
       alert("player2+wins!")
   }
 }
+//UI logic
+
+$(document).ready(function(){
+  $("#p1").click(function(){
+    $(".button").hide()
+    $("#name-0").show()
+  });
+  $("#p2").click(function(){
+    $(".button").hide()
+    $("#name-1").show()
+  });
+})
